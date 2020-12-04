@@ -4,13 +4,39 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="/assets/css/theme.min.css" rel="stylesheet" />
+
   </head>
   <body>
-    {% include navigation.html %}
-    <main>
-      {{ content }}
-    </main>
-    {% include footer.html %}
+    <!-- page wrapper start -->
+    <div class="page-wrapper">
+      <!-- preloader start -->
+
+      <div id="ht-preloader">
+        <div class="loader clear-loader">
+          <span></span>
+          <p>Slash Telecom.</p>
+        </div>
+      </div>
+
+      <!-- preloader end -->
+      {% include navigation.html %}
+      <main>
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
+    <!-- page wrapper end -->
+
+      <div class="scroll-top"><a class="smoothscroll" href="#top"><i class="las la-angle-up"></i></a></div>
+
+    <!-- inject js start -->
+
+    <script src="assets/js/theme-plugin.js"></script>
+    <script src="assets/js/theme-script.js"></script>
+
+    <!-- inject js end -->
   </body>
 </html>

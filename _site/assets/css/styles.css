@@ -1,9 +1,11 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
-
-body { display: flex; flex-direction: column; min-height: 100vh; }
-
-main { flex-grow: 1; }
-
-.current { color: green; }
+@import url(bootstrap.min.css);
+@import url(animate.css);
+@import url(line-awesome.min.css);
+@import url(themify-icons.css);
+@import url(magnific-popup.css);
+@import url(owl.carousel.css);
+@import url(lightslider.min.css);
+@import url(jquery-ui.css);
+@import url(spacing.css);
 
 /*# sourceMappingURL=styles.css.map */

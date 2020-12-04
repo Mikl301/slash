@@ -2,13 +2,11 @@
 	"version": 3,
 	"file": "styles.css",
 	"sources": [
-		"styles.scss",
-		"_sass/main.scss"
+		"styles.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";",
-		"* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n\nmain {\n  flex-grow: 1;\n}\n\n.current {\n  color: green;\n}"
+		"@import 'bootstrap.min.css';\n@import 'animate.css';\n@import 'line-awesome.min.css';\n@import 'themify-icons.css';\n@import 'magnific-popup.css';\n@import 'owl.carousel.css';\n@import 'lightslider.min.css';\n@import 'jquery-ui.css';\n@import 'spacing.css';\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,CAAC,CAAC,EACA,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,EACV,UAAU,EAAE,UAAU,GACvB;;AAED,AAAA,IAAI,CAAC,EACH,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,MAAM,EACtB,UAAU,EAAE,KAAK,GAClB;;AAED,AAAA,IAAI,CAAC,EACH,SAAS,EAAE,CAAC,GACb;;AAED,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb"
+	"mappings": "AAAA,OAAO,CAAP,sBAAO;AACP,OAAO,CAAP,gBAAO;AACP,OAAO,CAAP,yBAAO;AACP,OAAO,CAAP,sBAAO;AACP,OAAO,CAAP,uBAAO;AACP,OAAO,CAAP,qBAAO;AACP,OAAO,CAAP,wBAAO;AACP,OAAO,CAAP,kBAAO;AACP,OAAO,CAAP,gBAAO"
 }
