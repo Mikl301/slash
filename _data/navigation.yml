@@ -1,6 +1,6 @@
 - name: Acceuil
-  link: /
+  link: /slash/
 - name: À Propos
-  link: /about.html
+  link: /slash/about.html
 - name: Contactez-nous
-  link: /contact.html
+  link: /slash/contact.html
