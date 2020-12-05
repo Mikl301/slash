@@ -14,7 +14,7 @@
               <ul class="navbar-nav ml-auto">
                 {% for item in site.data.navigation %}
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ item.link | relative_url }}" {% if page.url == item.link %}style="color: #f94f15;"{% endif %}>
+                    <a href="{{ item.link | relative_url }}" class="nav-link" {% if page.url == item.link %}style="color: #f94f15;"{% endif %}>
                       {{ item.name }}
                     </a>
                   </li>
