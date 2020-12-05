@@ -1,0 +1,24 @@
+- name: Kévin Bataille
+  role: CEO
+  picture: 01.png
+  facebook: #
+  twitter: #
+  linkedin: #
+- name: Samuel Virama
+  role: Trésorier
+  picture: 02.png
+  facebook: #
+  twitter: #
+  linkedin: #
+- name: Ashvin Silvestro
+  role: Ingénieur
+  picture: 03.png
+  facebook: #
+  twitter: #
+  linkedin: #
+- name: Pierre Louis
+  role: Web Developper
+  picture: 04.png
+  facebook: #
+  twitter: #
+  linkedin: #
