@@ -5,8 +5,8 @@
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link href="/assets/css/theme.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ 'assets/css/styles.css' | relative_url }}">
+    <link href="{{ '/assets/css/theme.min.css' | relative_url }}" rel="stylesheet" />
 
   </head>
   <body>
@@ -34,8 +34,8 @@
 
     <!-- inject js start -->
 
-    <script src="assets/js/theme-plugin.js"></script>
-    <script src="assets/js/theme-script.js"></script>
+    <script src="{{ 'assets/js/theme-plugin.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/theme-script.js' | relative_url }}"></script>
 
     <!-- inject js end -->
   </body>
